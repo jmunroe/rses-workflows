@@ -1,0 +1,133 @@
+============================================
+Computational Data Analysis Workflow Systems
+============================================
+
+An incomplete list
+------------------
+
+Please add new entries at the bottom.
+
+See also: https://github.com/pditommaso/awesome-pipeline
+
+#. Arvados http://arvados.org
+#. Taverna http://www.taverna.org.uk/
+#. Galaxy http://galaxyproject.org/
+#. SHIWA https://www.shiwa-workflow.eu/
+#. Oozie https://oozie.apache.org/
+#. DNANexus https://wiki.dnanexus.com/API-Specification-v1.0.0/IO-and-Run-Specifications# https://wiki.dnanexus.com/API-Specification-v1.0.0/Workflows-and-Analyses#
+#. BioDT http://www.biodatomics.com/
+#. Agave http://agaveapi.co/live-docs/
+#. DiscoveryEnvironment http://www.iplantcollaborative.org/ci/discovery-environment
+#. Wings http://www.wings-workflows.org/
+#. Knime https://www.knime.org/
+#. make, rake, drake, ant, scons & many others. Software development relies heavily on tools to manage workflows related to compiling and packaging applications.  For the most part these are file based and usually run on a single node, usually supporting parallel steps (make -j) and in some cases able to dispatch build steps to other machines (https://code.google.com/p/distcc/) https://github.com/Factual/drake
+#. Snakemake https://bitbucket.org/snakemake/snakemake
+#. BPipe http://bpipe.org
+#. Ruffus https://code.google.com/p/ruffus/
+#. NextFlow http://nextflow.io
+#. Luigi http://github.com/spotify/luigi
+#. SciLuigi. Helper library built on top of Luigi to ease development of Scientific workflows in Luigi: http://github.com/samuell/sciluigi
+#. GATK Queue https://www.broadinstitute.org/gatk/guide/topic?name=queue
+#. Yabi https://ccg.murdoch.edu.au/yabi
+#. seqware Workflows are written in Java and executed using the Oozie Workflow Engine on Hadoop or SGE clusters. Uses Zip64 files to group the workflow definition file, workflow itself, sample settings, and data dependencies in a single file that can be exchanged between SeqWare users or archived. https://seqware.github.io/ https://seqware.github.io/docs/6-pipeline/
+#. Ketrew https://github.com/hammerlab/ketrew
+#. Pegasus http://pegasus.isi.edu/
+#. Airflow https://github.com/airbnb/airflow
+#. Cosmos https://cosmos.hms.harvard.edu/documentation/index.html http://bioinformatics.oxfordjournals.org/content/early/2014/07/24/bioinformatics.btu385.full [paper] Cosmos2: https://github.com/LPM-HMS/COSMOS2 http://cosmos.hms.harvard.edu/COSMOS2/
+#. Pinball https://github.com/pinterest/pinball
+#. bcbio https://bcbio-nextgen.readthedocs.org/en/latest/
+#. Chronos https://github.com/mesos/chronos
+#. Azkaban https://azkaban.github.io/
+#. Apache NiFi https://nifi.apache.org/docs/nifi-docs/html/overview.html
+#. flowr (R-based) http://docs.flowr.space/ https://github.com/sahilseth/flowr
+#. Mistral https://github.com/arteria-project https://wiki.openstack.org/wiki/Mistral#What_is_Mistral.3F https://wiki.openstack.org/wiki/Mistral/DSLv2
+#. nipype http://nipy.org/nipype/
+#. End of Day https://github.com/joestubbs/endofday
+#. BioDSL https://github.com/maasha/BioDSL
+#. BigDataScript http://pcingola.github.io/BigDataScript/
+#. Omics Pipe: uses Ruffus http://sulab.scripps.edu/omicspipe/
+#. Ensembl Hive https://github.com/Ensembl/ensembl-hive
+#. QuickNGS http://bifacility.uni-koeln.de/quickngs/web
+#. GenePattern http://www.broadinstitute.org/cancer/software/genepattern/
+#. Chipster http://chipster.csc.fi/
+#. The Genome Modeling System https://github.com/genome/gms
+#. Cuneiform, A Functional Workflow Language https://github.com/joergen7/cuneiform http://www.cuneiform-lang.org/
+#. Anvaya http://www.ncbi.nlm.nih.gov/pubmed/22809419 http://webapp.cabgrid.res.in/biocomp/Anvaya/ANVAYA_Main.html#HOWTO_INSTALL_ANVAYA
+#. Makeflow http://ccl.cse.nd.edu/software/makeflow/
+#. Airavata http://airavata.apache.org/
+#. Pyflow https://github.com/Illumina/pyflow
+#. Cluster Flow http://clusterflow.io
+#. Unipro UGENE http://ugene.net/ https://dx.doi.org/10.7717/peerj.644
+#. CloudSlang http://www.cloudslang.io/
+#. Stacks http://catchenlab.life.illinois.edu/stacks/
+#. Leaf http://www.francesconapolitano.it/leaf/index.html
+#. omictools http://omictools.com/
+#. Job Description Language. The Job Description Language, JDL, is a high-level, user-oriented language based on Condor classified advertisements for describing jobs and aggregates of jobs such as Direct Acyclic Graphs and Collections. https://edms.cern.ch/ui/file/590869/1/WMS-JDL.pdf
+#. YAWL yet another workflow language http://dx.doi.org/10.1016/j.is.2004.02.002 http://www.yawlfoundation.org/
+#. Triquetrum https://projects.eclipse.org/projects/technology.triquetrum https://github.com/eclipse/triquetrum/
+#. Kronos https://github.com/jtaghiyar/kronos
+#. qsubsec http://doi.org/10.1093/bioinformatics/btv698 https://github.com/alastair-droop/qsubsec
+#. YesWorkflow http://yesworkflow.org
+#. GWF - Grid WorkFlow https://github.com/mailund/gwf http://mailund.github.io/gwf/
+#. Fireworks. https://pythonhosted.org/FireWorks/
+#. NGLess: NGS with less work http://ngless.rtfd.io
+#. pypipegraph https://github.com/TyberiusPrime/pypipegraph
+#. Cromwell https://github.com/broadinstitute/cromwell
+#. Dagobah - Simple DAG-based job scheduler in Python. https://github.com/thieman/dagobah
+#. sushi https://github.com/uzh/sushi
+#. Clinical Trial Processor - A program for processing clinical trials data.  http://mircwiki.rsna.org/index.php?title=MIRC_CTP
+#. Noodles http://nlesc.github.io/noodles/
+#. Swift http://swift-lang.org/main/
+#. Consonance (runs SeqWare & CWL) https://github.com/Consonance/consonance/wiki
+#. Dog https://github.com/dogtools/dog
+#. Produce https://github.com/texttheater/produce
+#. LONI Pipeline http://pipeline.loni.usc.edu/
+#. Cpipe https://github.com/MelbourneGenomics/cpipe
+#. AWE https://github.com/MG-RAST/AWE
+#. (Py)COMPSs https://www.bsc.es/research-and-development/software-and-apps/software-list/comp-superscalar/
+#. KLIKO https://github.com/gijzelaerr/kliko
+#. Script of Scripts https://github.com/BoPeng/SOS http://vatlab.github.io/SOS/
+#. XNAT Pipeline Engine https://wiki.xnat.org/display/XNAT/Pipeline+Engine https://wiki.xnat.org/display/XNAT/XNAT+Pipeline+Development+Schema
+#. Metapipe https://github.com/TorkamaniLab/metapipe
+#. OCCAM (Open Curation for Computer Architecture Modeling) https://occam.cs.pitt.edu/ 
+#. Copernicus http://www.copernicus-computing.org
+#. iRODS Rule Language https://github.com/samuell/irods-cheatsheets/blob/master/irods-rule-lang-full-guide.md
+#. VisTrails https://www.vistrails.org
+#. Bionode Watermill https://github.com/bionode/bionode-watermill
+#. BIOVIA Pipeline Pilot Overview http://accelrys.com/products/collaborative-science/biovia-pipeline-pilot/
+#. Dagman A meta-scheduler for HTCondor https://research.cs.wisc.edu/htcondor/dagman/dagman.html
+#. UNICORE https://www.unicore.eu/docstore/workflow-7.6.0/workflow-manual.html#wf_dialect
+#. Toil (A scalable, efficient, cross-platform and easy-to-use workflow engine in pure Python) https://github.com/BD2KGenomics/toil
+#. Cylc https://cylc.github.io/cylc/
+#. Autodesk Cloud Compute Canon https://github.com/Autodesk/cloud-compute-cannon
+#. Civet https://github.com/TheJacksonLaboratory/civet
+#. Cumulus https://github.com/Kitware/cumulus
+#. High-performance integrated virtual environment (HIVE) https://hive.biochemistry.gwu.edu
+#. Cloudgene http://cloudgene.uibk.ac.at/cloudgene-yaml
+#. FASTR https://bitbucket.org/bigr_erasmusmc/fastr/ http://fastr.readthedocs.io/en/stable/
+#. BioMake https://github.com/evoldoers/biomake http://dx.doi.org/10.1101/093245
+#. remake https://github.com/richfitz/remake
+#. SciFloware http://www-sop.inria.fr/members/Didier.Parigot/pmwiki/Scifloware/
+#. OpenAlea http://openalea.gforge.inria.fr/dokuwiki/doku.php https://hal.archives-ouvertes.fr/hal-01166298/file/openalea-PradalCohen-Boulakia.pdf
+#. COMBUSTI/O https://github.com/jarlebass/combustio http://hdl.handle.net/10037/9361
+#. BioCloud https://github.com/ccwang002/biocloud-server-kai http://doi.org/10.6342/NTU201601295
+#. Triana http://www.trianacode.org/
+#. Kepler https://kepler-project.org/
+#. Anduril http://anduril.org/site/
+#. dgsh http://www.dmst.aueb.gr/dds/sw/dgsh/
+#. EDGE bioinformatics: Empowering the Development of Genomics Expertise https://bioedge.lanl.gov/edge_ui/ http://edge.readthedocs.io/ https://lanl-bioinformatics.github.io/EDGE/
+#. Pachyderm http://pachyderm.io/ http://pachyderm.readthedocs.io/en/stable/advanced/advanced.html
+#. Digdag https://www.digdag.io/
+#. Agua / Automated Genomics Utilities Agent http://aguadev.org
+#. BioDepot Workflow Builder (BwB) https://github.com/BioDepot/BioDepot-workflow-builder https://doi.org/10.1101/099010
+#. IMP: a pipeline for reproducible reference-independent integrated metagenomic and metatranscriptomic analyses http://r3lab.uni.lu/web/imp/ https://doi.org/10.1186/s13059-016-1116-8
+#. Butler https://github.com/llevar/butler
+#. adage / yadage https://github.com/diana-hep/adage https://github.com/diana-hep/yadage
+#. HI-WAY: Execution of Scientific Workflows on Hadoop YARN https://github.com/marcbux/Hi-WAY https://openproceedings.org/2017/conf/edbt/paper-248.pdf
+#. OpenMOLE https://github.com/openmole/openmole https://www.openmole.org/ https://doi.org/10.3389/fninf.2017.00021
+#. Biopet https://github.com/biopet/biopet
+#. Nephele https://nephele.niaid.nih.gov/
+#. TOPPAS http://doi.org/10.1021/pr300187f
+#. SBpipe https://pdp10.github.io/sbpipe/ https://github.com/pdp10/sbpipe https://doi.org/10.1186/s12918-017-0423-3
+#. Dray http://dray.it/
+#. GenomeVIP https://github.com/ding-lab/GenomeVIP https://doi.org/10.1101/gr.211656.116
