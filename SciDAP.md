@@ -1,0 +1,1 @@
+CWL implementation in [Airflow](https://github.com/airbnb/airflow) is supported by [SciDAP](https://github.com/SciDAP/scidap) project.
